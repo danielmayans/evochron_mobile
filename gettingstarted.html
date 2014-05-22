@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.flatui.css" />
+    <script type="text/javascript" src="assets/js/jquery.js"></script> 
+    <script type="text/javascript" src="assets/js/jquery.mobile-1.4.0-rc.1.js"></script> 
+    <style type="text/css">
+    p{color:white;}
+    div.ui-footer{text-align: center;}
+    div.ui-footer h1{display:inline !important;}
+    </style>
+  </head>
+  
+  <body>
+
+    <div data-role="page" id="gettingstarted"> 
+	  <div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push">
+
+    	</div>
+
+	    <div data-role="header">
+	      <a data-iconpos="notext" data-role="button" data-icon="home" title="Home" href="index.html"data-ajax="false"></a>
+	      <h1>Evochron Mercenary</h1>
+	      <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+	    </div>
+	  <div data-role="content">
+	    <a href="index.html" data-role="button" onClick=buttonDemo() data-ajax="false"> Back to Main Page </a>
+		<p style="color:white;">When you start the game, you will be placed next to the first beacon of the story quest involving Scott Gerret and his search for his brother who was a pilot onboard a battle carrier during the Arvoch Conflict.</br></br>The first beacon will display its message immediately, but each additional beacon in the quest will require you have a certain ship configuration or item in your cargo bay before the message will be displayed.</br>The beacon quest is not required, you can follow the beacons or venture off to do other things at any time. You may want to mark the location of the first beacon on your nav map to save it for later reference in case you want to complete the quest later. </p>
+		            </div><!-- /content -->
+ 
+            <div data-role="footer">
+                <h1> <a href="#tractorbeam" data-role="button" data-ajax="false">Next</a></h1>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+<div data-role="page" id="tractorbeam" data-add-back-btn="true" data-theme="a">
+	<div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+            <div data-role="header">
+                <a data-iconpos="notext" data-role="button" data-icon="home" title="Home" href="index.html"data-ajax="false"></a>
+	      <h1>Evochron Mercenary</h1>
+	      <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+            </div><!-- /header -->
+ 
+            <div data-role="content">
+                <a href="index.html" data-role="button" onClick=buttonDemo() data-ajax="false"> Back to Main Page </a>
+		<center id="tractorbeam" ><img src="assets/files/read-beam.jpg"/></center>
+		<p style="color:white;"><strong>Locate and Acquire a Mining/Tractor Beam</strong></br></br>The first objective you may want to complete is finding a mining/tractor beam. This is one of the most important equipment items in the game as it lets you recover cargo and mine for valuable materials (found in asteroids and planets).</br></br>One of the most profitable activities early in the game is mining asteroids and this device is needed to harvest the ore. Asteroids generally carry valuable material that is easy to get to since they are in open space, but to find the mining/tractor beam, you may want to land at a city on the surface of Sapphire where they are often available in the local inventories.</br></br>Once you find one, click on it in the 'Items for Sale' list to install it on your ship. Once installed, travel back into space and head for the local asteroid field. </p>
+		            </div><!-- /content -->
+ 
+            <div data-role="footer">
+                <h1> <a href="#gettingstarted" data-role="button" data-ajax="false">Previous</a></h1><h1> <a href="#mining" data-role="button" data-ajax="false">Next</a></h1>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+<div data-role="page" id="mining" data-add-back-btn="true" data-theme="a">
+	<div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+            <div data-role="header">
+                <a data-iconpos="notext" data-role="button" data-icon="home" title="Home" href="index.html"data-ajax="false"></a>
+	      <h1>Evochron Mercenary</h1>
+	      <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+            </div><!-- /header -->
+ 
+            <div data-role="content">
+                <a href="index.html" data-role="button" onClick=buttonDemo() data-ajax="false"> Back to Main Page </a>
+		<center><img src="assets/files/read-mine.jpg"/></center>
+		<p><strong>Mining</strong></br></br>
+To get started mining, simply fly close to an asteroid and activate the mining beam. You can lock the beam on by pressing the default Alt-B key combination. If you are close enough to the asteroid to mine it, you will see hot red particles of the asteroid fly off from its surface as the beam cuts into the rock. If you do not see this effect, you're not close enough to the asteroid. </br></br>In Sapphire, metal ore is generally not very valuable, so you can discard any metal you recover in favor of platinum or diamonds, which are far more valuable. To discard an item, simply click on its listing in your cargo bay. Once a cargo bay slot is empty, it can accept any material. But once one unit of a material is placed in a cargo bay slot, you can only continue to load units of that material type into that cargo bay slot. </br></br>The reason for this is so you can manually manage what material you mine and it accommodates the different shapes and sizes of each material type. Each unit of a material is assigned a unique shape for every container that holds it. These shapes are only compatible with each other and must 'fit' together inside each of your cargo bay slots. Your mining and loading system will automatically take care of this sorting procedure for you, all you need to do is select which materials you want to keep or discard. </br></br>You can pre-prime your cargo bays by buying or leaving only 1 unit of an item in each cargo bay, then travel to an asteroid field to mine. This lets you recover only the material you want while mining. To buy or sell individual units of items at a time, use right click instead of left click. </p>
+<p>
+Once you have filled your cargo bay with the material(s) you want, travel to the nearby planet Rivoch to sell what you have for better profit. You can also mine the surface of planets for other valuable materials. Mining this way is a safe way to make decent credits early in the game. 
+</p><p>
+You can also earn a few credits while you descend into a planet atmosphere. Keep your tractor beam on as you descend into a planet atmosphere to recover oxygen. This can be sold for as much as 30-50K once you arrive at a city by the time you land, easily covering the costs of fuel for the descent and also leaving you with plenty of credits left over. </p>
+            </div><!-- /content -->
+ 
+            <div data-role="footer">
+                <h1> <a href="#tractorbeam" data-role="button" data-ajax="false">Previous</a></h1><h1> <a href="#racing" data-role="button" data-ajax="false">Next</a></h1>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+<div data-role="page" id="racing" data-add-back-btn="true" data-theme="a">
+	<div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+            <div data-role="header">
+                <a data-iconpos="notext" data-role="button" data-icon="home" title="Home" href="index.html"data-ajax="false"></a>
+	      <h1>Evochron Mercenary</h1>
+	      <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+            </div><!-- /header -->
+ 
+            <div data-role="content">
+                <a href="index.html" data-role="button" onClick=buttonDemo() data-ajax="false"> Back to Main Page </a>
+<center><img src="assets/files/read-race.jpg"/></center>
+<p><strong>Racing</strong></br></br>
+While you are still in Sapphire early in the game, consider also completing some contracts. Racing can be a great way to earn some quick credits while also practicing with the controls of your ship. You'll learn how to balance speed and agility with zero gravity drifing and the maneuvering thruster system your ship uses.</br></br>You may not win too many races at first, but the races only cost you fuel and you'll likely soon start to develop tactics on when to speed up or slow down and when/how to perform turns while staying inside the race course boxes. Your ship's shield system will default to a 'passive' mode while you are racing, allowing you to bump against the other ship(s) during the race without bouncing off and losing momentum. You may also want to race other players online for more challenging practice as you become better at winning races. </p>
+            </div><!-- /content -->
+ 
+            <div data-role="footer">
+                <h1> <a href="#mining" data-role="button" data-ajax="false">Previous</a></h1><h1> <a href="#solar" data-role="button" data-ajax="false">Next</a></h1>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+<div data-role="page" id="solar" data-add-back-btn="true" data-theme="a">
+	<div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+            <div data-role="header">
+                <a data-iconpos="notext" data-role="button" data-icon="home" title="Home" href="index.html"data-ajax="false"></a>
+	      <h1>Evochron Mercenary</h1>
+	      <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+            </div><!-- /header -->
+ 
+            <div data-role="content">
+                <a href="index.html" data-role="button" onClick=buttonDemo() data-ajax="false"> Back to Main Page </a>
+<center><img src="assets/files/read-solar.jpg"/></center>
+<p><strong>Cleaning Solar Arrays</strong></br></br>
+Another way to safely earn credits early in the game is to clean solar arrays. Local companies often have solar arrays in a temporary location that need to be cleaned and they will pay well for a pilot to take care of the cleaning for them. These arrays get covered in a film of debris during open space manufacturing and during transport.</br></br>The mining/tractor beam can be used to safely remove the debris from each panel, but it must be done carefully so you don't miss completely cleaning one or more arrays. Missing an array can add long delays to the process by forcing you to go back over the panels to scan for the one you missed. So take your time and carefully clean each array fully before moving on to the next one. </p>
+            </div><!-- /content -->
+ 
+            <div data-role="footer">
+                <h1> <a href="#racing" data-role="button" data-ajax="false">Previous</a></h1><h1> <a href="#items" data-role="button" data-ajax="false">Next</a></h1>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+<div data-role="page" id="items" data-add-back-btn="true" data-theme="a">
+	<div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+            <div data-role="header">
+                <a data-iconpos="notext" data-role="button" data-icon="home" title="Home" href="index.html"data-ajax="false"></a>
+	      <h1>Evochron Mercenary</h1>
+	      <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+            </div><!-- /header -->
+ 
+            <div data-role="content">
+                <a href="index.html" data-role="button" onClick=buttonDemo() data-ajax="false"> Back to Main Page </a>
+<center><img src="assets/files/read-item.jpg"/></center>
+<p><strong>Locating and Returning Items</strong></br></br>
+Early in the game, few options can earn you credits as quickly as locating and returning items. For location contracts, all you have to do is locate a lost item and fly close enough to scan it. The waypoint will give you the general location, often close enough to pick up the item on your 3D radar (purple blip).</br></br>Once you've located the item and fly close enough to it, you'll be paid immediately. To return an item, you'll need to have room in your cargo bay and need to fly close enough to the item so your mining/tractor beam can pick it up. Once it's placed in your cargo bay, return to the local trade station to deliver the item and get paid. </p>
+            </div><!-- /content -->
+ 
+            <div data-role="footer">
+                <h1> <a href="#solar" data-role="button" data-ajax="false">Previous</a></h1><h1> <a href="#cargo" data-role="button" data-ajax="false">Next</a></h1>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+<div data-role="page" id="cargo" data-add-back-btn="true" data-theme="a">
+	<div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+            <div data-role="header">
+                <a data-iconpos="notext" data-role="button" data-icon="home" title="Home" href="index.html"data-ajax="false"></a>
+	      <h1>Evochron Mercenary</h1>
+	      <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+            </div><!-- /header -->
+ 
+            <div data-role="content">
+                <a href="index.html" data-role="button" onClick=buttonDemo() data-ajax="false"> Back to Main Page </a>
+<center><img src="assets/files/read-cargo.jpg"/></center>
+<p><strong>Cargo Delivery</strong></br></br>
+Another good paying option early in the game are cargo delivery contracts. Simply deliver an item they give you to a waiting transport. The waiting transport is generally right at the waypoint location, which your jump point marker will be highlighting once you arrive unless you change it. The waiting transport will be a very large ship and you'll need to fly close to it before delivering the cargo.</br></br>Fly to within about 750 meters of the ships, usually under it or next to it is best, then press the default J key to jettison the cargo so the transport can tractor it aboard. Be careful not to discard the cargo, otherwise you'll destroy it rather than deliverying it to the transport.</br></br>Also, make sure you do not have other items in your cargo bay, otherwise you will be giving the transport free items that they will be happy to take from you without reimbursing you for them. Sell or trade other items in your cargo bay before accepting delivery contracts to avoid giving away items that can provide you with credits. </p>
+            </div><!-- /content -->
+ 
+            <div data-role="footer">
+                <h1> <a href="#items" data-role="button" data-ajax="false">Previous</a></h1><h1> <a href="#earlycombat" data-role="button" data-ajax="false">Next</a></h1>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+<div data-role="page" id="earlycombat" data-add-back-btn="true" data-theme="a">
+	<div data-role="panel" id="panel" data-position="right" data-theme="a" data-display="push"></div>
+            <div data-role="header">
+                <a data-iconpos="notext" data-role="button" data-icon="home" title="Home" href="index.html"data-ajax="false"></a>
+	      <h1>Evochron Mercenary</h1>
+	      <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+            </div><!-- /header -->
+ 
+            <div data-role="content">
+                <a href="index.html" data-role="button" onClick=buttonDemo() data-ajax="false"> Back to Main Page </a>
+<center><img src="assets/files/read-olympus.jpg"/></center>
+<p><strong>Location and Early Combat</strong></br></br>
+Sapphire is a safe place to remain early in the game. But once you've upgrade your ship a few times, you may be ready to venture out in to other nearby systems. The first system you may want to travel to outside of Sapphire is Olympus. Olympus is a mostly friendly system with the limited number of hostiles being equipped with low level weapons and ships. So while there are some hostiles in the system, they are limited in their number and capabilities. </br></br>A good docking point is the trade station near the planet Olympus Prime. This is a good location to start on some basic combat contracts that will help you build your skills. If hostiles are nearby while you are trying to travel to a station or other location, you can turn off the IDS and use the afterburner to accelerate to speeds above around 3000 MPS. </br></br>At that speed, enemy gunfire and missiles won't usually hit you unless they are approaching you from ahead of the direction you are flying in. Flying this way will generally keep you safe until you arrive at your destination and need to slow down. 
+</p><p>
+When flying in combat, try to minimize using missiles as they are expensive and can deplete the profit you make from the contract. Use guns as much as possible. Practice evading incoming gunfire and missiles while you also learn how to achieve good attack positions on a target. As you learn combat and completing combat contracts in Olympus becomes easier, you'll likely be ready to move into more challenging systems throughout the game's universe. </br></br>Generally speaking, the farther away you get from Sapphire, the more challenging you will find opponents to be. If you travel to an area that is too difficult for you, you can return to the previous system or search for another 'Fair' rated system nearby that isn't as challenging. </br></br>'Fair' rated systems are ideal for rookie players as they generally provide a wide variety of contract options in a low risk system with fewer hostiles. Remember to save often (default Alt-Q for quick save) when you are at safe locations to keep your progress. It's also a good idea to save in different profile slots in case you accidently save at a location you don't want. </p>
+	  </div>
+	  <div data-role="footer"> 
+	    <h1> <a href="#cargo" data-role="button" data-ajax="false">Previous</a></h1><h1> <a href="index.html" data-role="button" data-ajax="false">Next</a></h1>
+	  </div>
+    </div>
+  </body>
+</html>
